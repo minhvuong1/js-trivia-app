@@ -52,4 +52,19 @@ function flipCard() {
 
     trueButton.innerHTML = 'True'
     falseButton.innerHTML = 'False'
+    trueButton.addEventListener('click', getResult)
+    falseButton.addEventListener('click', getResult)
+    textDisplay.innerHTML = this.getAttribute('data-question')
+    this.append(textDisplay, trueButton, falseButton)
+
+    const allCards = Array.from(document.querySelectorAll('.card'))
+    allCards.forEach(card => card.removeEventListener('click', flipCard))
+
+}
+
+function getResult() {
+    const cardOfButtonClicked = this.parentElement
+    if (cardOfButtonClicked.getAttribute('data-answer') === this.innerHTML) {
+        console.log('Its a match')
+    }
 }
