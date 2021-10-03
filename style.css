@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background: blueviolet;
-    color: white;
+    background: rgb(134, 41, 221);
+    color: rgb(255, 255, 255);
     font-family: "Trebuchet MS", Arial;
     display: flex;
     justify-content: center;
