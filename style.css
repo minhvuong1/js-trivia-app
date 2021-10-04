@@ -1,13 +1,47 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(138, 50, 221);
+    background: rgb(84, 34, 131);
     color: rgb(255, 255, 255);
     font-family: "Trebuchet MS", Arial;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+main {
+    display: flex;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+.level {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 6px 0;
+    padding-top: 10px;
+}
+
+.levels {
+    text-align: left;
+    border: 6px solid white;
+    border-radius: 6px;
+    height: 100%;
+    padding: 30px;
+}
+
+.levels-heading {
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 42px;
+    margin: 0;
+    margin-top: -20px;
+    padding: 0 0 10px 0;
 }
 
 .genre-column {
@@ -20,11 +54,11 @@ body {
     width: 200px;
     height: 120px;
     border-radius: 20px;
-    background-color: rgb(69, 69, 209);
+    background-color: rgb(124, 124, 204);
     text-align: center;
     padding: 5px;
     margin: 10px;
-    border: solid rgb(135, 230, 97) 5px;
+    border: solid rgb(41, 79, 182) 5px;
     font-size: 100px;
 }
 
@@ -33,7 +67,7 @@ body {
 }
 
 .correct-answer {
-    background-color: palegreen;
+    background-color: rgb(98, 224, 98);
 }
 
 .wrong-answer {
