@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(134, 41, 221);
+    background: rgb(138, 50, 221);
     color: rgb(255, 255, 255);
     font-family: "Trebuchet MS", Arial;
     display: flex;
@@ -24,7 +24,7 @@ body {
     text-align: center;
     padding: 5px;
     margin: 10px;
-    border: solid yellow 5px;
+    border: solid rgb(135, 230, 97) 5px;
 }
 
 #game {
