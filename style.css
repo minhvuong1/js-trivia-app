@@ -25,8 +25,30 @@ body {
     padding: 5px;
     margin: 10px;
     border: solid rgb(135, 230, 97) 5px;
+    font-size: 100px;
 }
 
 #game {
     display: flex;
+}
+
+.correct-answer {
+    background-color: palegreen;
+}
+
+.wrong-answer {
+    background-color: crimson;
+}
+
+.true-button {
+    background-color: rgb(23, 139, 23);
+}
+
+.false-button {
+    background-color: rgb(241, 44, 44);
+}
+
+button {
+    margin: 10px 5px 0 5px;
+    color: white;
 }
